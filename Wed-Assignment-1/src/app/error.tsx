@@ -1,3 +1,4 @@
+"use client";
 export default function Error() {
   return (
     <div className="w-full h-[80vh] flex items-center justify-center text-indigo-800">
