@@ -2,7 +2,11 @@ import MainContent from "../components/MainContent";
 
 export default async function Contact() {
   await new Promise((resolve, reject) => {
-    setTimeout(resolve, 4000);
+    if (true) {
+      setTimeout(resolve, 4000);
+    } else {
+      setTimeout(reject, 4000);
+    }
   });
 
   const contactImg =
