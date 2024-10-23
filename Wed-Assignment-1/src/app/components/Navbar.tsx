@@ -17,11 +17,11 @@ export default function Navbar() {
   return (
     <div>
       <header className="w-full h-28 bg-indigo-500 flex justify-between items-center px-7">
-        <div className="logo w-[25%] text-white">
+        <div className="logo w-[23%] text-white">
           <h1 className="font-bold text-4xl">GIAIC ASSIGNMENT-1</h1>
         </div>
-        <nav className="w-[40%]">
-          <ul className="flex justify-evenly items-center text-2xl font-bold">
+        <nav className="w-[50%]">
+          <ul className="flex justify-evenly items-center text-2xl font-bold lg:gap-0 gap-3">
             {navLinks.map((data) => {
               return (
                 <li
@@ -34,7 +34,6 @@ export default function Navbar() {
                 </li>
               );
             })}
-           
           </ul>
         </nav>
       </header>
