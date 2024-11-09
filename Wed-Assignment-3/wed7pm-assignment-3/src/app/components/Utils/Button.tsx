@@ -9,7 +9,7 @@ const Button = ({ text, hero = false }: Btn) => {
   return (
     <>
       <button
-        className={`rounded-lg bg-[#4F9CF9] text-white flex gap-[10px] items-center cursor-pointer  ${
+        className={`btn rounded-lg bg-[#4F9CF9] text-white flex gap-[10px] items-center cursor-pointer  ${
           hero ? "w-[219px] h-[63px] p-5" : "px-10 py-5"
         }`}
       >

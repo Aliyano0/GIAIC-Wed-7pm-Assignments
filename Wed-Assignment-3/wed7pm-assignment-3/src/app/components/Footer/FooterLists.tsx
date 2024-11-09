@@ -24,17 +24,13 @@ const FooterLists = ({
           <li className="font-bold h-[22px] text-lg leading-[21.78px] tracking-[-2%] ">
             {heading}
           </li>
-          <li
-            className={`h-[20px] text-base leading-[20px] tracking-[-2%] ${
-              yellow ? "text-[#FFE492]" : "text-white"
-            }`}
-          >
+          <li className="h-[20px] text-base leading-[20px] tracking-[-2%] hover:text-[#FFE492] cursor-pointer">
             {list1}
           </li>
-          <li className="h-[20px] text-base leading-[20px] tracking-[-2%] ">
+          <li className="h-[20px] text-base leading-[20px] tracking-[-2%] hover:text-[#FFE492] cursor-pointer">
             {list2}
           </li>
-          <li className="h-[20px] text-base leading-[20px] tracking-[-2%] ">
+          <li className="h-[20px] text-base leading-[20px] tracking-[-2%] hover:text-[#FFE492] cursor-pointer">
             {list3}
           </li>
         </ul>

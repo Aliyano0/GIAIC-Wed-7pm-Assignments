@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className="w-[737.5px] h-[60px] flex gap-[60px] items-center justify-between">
           <nav className="w-[549px] h-[23px]">
             <ul className="nav-list flex gap-[32px] text-lg leading-[23px] text-white font-medium font-[#043873]">
-              <li className="cursor-pointer">Products</li>
-              <li className="cursor-pointer">Solutions</li>
-              <li className="cursor-pointer">Resources</li>
-              <li className="cursor-pointer">Pricing</li>
+              <li className="cursor-pointer hover:text-[#FFE492]">Products</li>
+              <li className="cursor-pointer hover:text-[#FFE492]">Solutions</li>
+              <li className="cursor-pointer hover:text-[#FFE492]">Resources</li>
+              <li className="cursor-pointer hover:text-[#FFE492]">Pricing</li>
             </ul>
           </nav>
           <div className="login-btn w-[126px] h-[60px]">
